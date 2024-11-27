@@ -79,6 +79,35 @@ Camera Not Working: Ensure your camera is properly connected and not being used 
 Low FPS: Reduce the resolution of the webcam feed or close other resource-intensive applications.
 Emotion Analysis Not Working: Test DeepFace separately to confirm it's working properly.
 
+## References
+
+1. **OpenCV**  
+   OpenCV is an open-source computer vision and machine learning software library that provides tools for real-time image processing.  
+   - OpenCV: https://opencv.org/
+
+2. **MediaPipe**  
+   MediaPipe is a framework developed by Google for building cross-platform pipelines for processing multimodal data, such as video, audio, and other sensor data. It was used in this project for hand and face detection.  
+   - MediaPipe: https://google.github.io/mediapipe/
+
+3. **pyttsx3**  
+   pyttsx3 is a text-to-speech conversion library in Python that provides speech synthesis. It was used in this project to give real-time feedback for gestures and emotions.  
+   - pyttsx3: https://pypi.org/project/pyttsx3/
+
+4. **DeepFace**  
+   DeepFace is a Python library for deep learning-based facial recognition and emotion analysis. It was used in this project to analyze emotions from detected faces.  
+   - DeepFace: https://github.com/serengil/deepface
+
+5. **Matplotlib**  
+   Matplotlib is a plotting library for Python which provides an object-oriented API for embedding plots into applications. It was used in this project to display video frames and overlay results.  
+   - Matplotlib: https://matplotlib.org/
+
+6. **NumPy**  
+   NumPy is a fundamental package for scientific computing in Python, used for handling arrays and matrices. It was utilized to process hand landmarks and gestures.  
+   - NumPy: https://numpy.org/
+
+7. **Python Documentation**  
+   - Official Python Documentation: https://docs.python.org/
+
 ### License
 This project is licensed under the MIT License.
 
